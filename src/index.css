@@ -1,0 +1,95 @@
+/* src/index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg: #fff;
+  --secondary-bg: #f7f7f7;
+  --border-color: #e5e5e5;
+  --primary-text: #222;
+  --secondary-text: #555;
+  --accent: #0064d2; /* eBay blue */
+  --highlight: #ffe600; /* eBay yellow */
+  --button-bg: #0064d2;
+  --button-text: #fff;
+  --button-hover-bg: #0051a8;
+  --card-bg: #fff;
+  --input-bg: #f7f7f7;
+  --input-border: #ccc;
+  --shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: var(--secondary-bg);
+  color: var(--primary-text);
+  min-height: 100vh;
+}
+
+a, h1, h2, h3, h4, h5, h6, p, span, label, li, td, th, div, input, button {
+  color: var(--primary-text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--highlight);
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: var(--shadow);
+}
+button:hover, button:focus {
+  background-color: var(--button-hover-bg);
+  color: var(--button-text);
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s, border 0.2s;
+}
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  border-color: var(--accent);
+}
+
+input, .search-bar {
+  background: var(--input-bg);
+  color: var(--primary-text);
+  border: 1px solid var(--input-border);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+input:focus, .search-bar:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--secondary-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
