@@ -30,7 +30,7 @@ A modern, full-featured e-commerce web application built with TypeScript.
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (or Bun if used)
+- [Node.js](https://nodejs.org/) (Bun)
 - [Git](https://git-scm.com/)
 
 ### Installation
