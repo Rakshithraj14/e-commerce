@@ -83,4 +83,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Feel free to modify and expand this README as your project evolves! If you want sections about deployment, environment variables, screenshots, or acknowledgments, let me know and I can add those as well.
+Built with ⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖
